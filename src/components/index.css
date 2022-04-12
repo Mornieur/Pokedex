@@ -1,0 +1,61 @@
+.OnePokemon {
+  background: #7b68ee;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flexbox;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  transform: scale(0.9);
+  border-color: #7b68ee;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  transition: all ease 0.2s;
+}
+
+.OnePokemon:hover {
+  transform: scale(1);
+}
+
+.OnePokemon number {
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.OnePokemon img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+.number small {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffd700;
+  width: 40px;
+  height: 20px;
+}
+
+.detail-wrapper {
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  margin: 0px auto;
+}
+
+.fundo {
+  display: flex;
+  box-sizing: border-box;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #ffffe0;
+  margin-top: -250px;
+  margin-bottom: 50px;
+  margin-left: -2px;
+}

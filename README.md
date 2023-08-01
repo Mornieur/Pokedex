@@ -1,7 +1,5 @@
 # Pokedex
 
-![Pokedex](https://raw.githubusercontent.com/Mornieur/Pokedex/main/public/pokedex.png)
-
 ## Overview
 
 Pokedex is a web application that serves as a digital encyclopedia of Pokemon. It allows users to explore various Pokemon species, view their details, and search for specific Pokemon based on their names or attributes. The project is built using React, Redux, and the PokeAPI to fetch data about Pokemon.

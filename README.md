@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Pokedex](https://raw.githubusercontent.com/Mornieur/Pokedex/main/public/pokedex.png)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Pokedex is a web application that serves as a digital encyclopedia of Pokemon. It allows users to explore various Pokemon species, view their details, and search for specific Pokemon based on their names or attributes. The project is built using React, Redux, and the PokeAPI to fetch data about Pokemon.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browse and search Pokemon by name or attributes.
+- View detailed information about each Pokemon, including its abilities, types, and stats.
+- Filter Pokemon based on their types or other attributes.
+- Responsive design, making it accessible on various devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```
+   git clone https://github.com/Mornieur/Pokedex.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd Pokedex
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open your web browser and visit http://localhost:3000 to access the Pokedex application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Usage
 
-## Learn More
+Once the application is up and running, you can start exploring the Pokemon universe:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Use the search bar to look for specific Pokemon by their name or attributes.
+- Click on a Pokemon card to view detailed information about that Pokemon, including its abilities, types, and stats.
+- Use the filter options to narrow down your search based on Pokemon types or other attributes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Technologies Used
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React: A JavaScript library for building user interfaces.
+- Redux: A predictable state container for managing application state.
+- PokeAPI: An API that provides data about Pokemon species and their attributes.
+- React Router: A library for handling navigation in a React application.
+- Styled-components: A CSS-in-JS library for styling React components.
+- Axios: A promise-based HTTP client for making API requests.
+- HTML5 and CSS3: For structuring and styling the web pages.

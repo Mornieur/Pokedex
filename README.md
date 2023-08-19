@@ -66,9 +66,8 @@ Once the application is up and running, you can start exploring the Pokemon univ
 Technologies Used
 
 - React: A JavaScript library for building user interfaces.
-- Redux: A predictable state container for managing application state.
 - PokeAPI: An API that provides data about Pokemon species and their attributes.
 - React Router: A library for handling navigation in a React application.
-- Styled-components: A CSS-in-JS library for styling React components.
+- CSS: Styling React components.
 - Axios: A promise-based HTTP client for making API requests.
 - HTML5 and CSS3: For structuring and styling the web pages.

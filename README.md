@@ -1,8 +1,22 @@
-# Pokedex
+<div align='center'>
+  <h1>Welcome to Pokedex Project!</h1>
+</div>
+
+<br />
+
+<div align='center'>
+
+  <img src="./public/pokedex.png" alt='project image' width='600'  />
+</div>
+
+<br />
 
 ## Overview
 
-Pokedex is a web application that serves as a digital encyclopedia of Pokemon. It allows users to explore various Pokemon species, view their details, and search for specific Pokemon based on their names or attributes. The project is built using React, Redux, and the PokeAPI to fetch data about Pokemon.
+<div align='center'>
+  <strong>Pokedex is a web application that serves as a digital encyclopedia of Pokemon. It allows users to explore various Pokemon species, view their details, and search for specific Pokemon based on their names or attributes. The project is built using React, Redux, and the PokeAPI to fetch data about Pokemon.
+</strong>
+</div>
 
 ## Features
 
